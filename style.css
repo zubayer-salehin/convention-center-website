@@ -107,11 +107,6 @@ body{
 
 /* food-menu-CSS-Start */
 
-.food-img{
-    width:261px;
-    height:175px;
-}
-
 .food:hover .dark-shadow{
     background: rgba(0,0,0,.7);
     transition:all 0.3s;
@@ -167,3 +162,24 @@ footer-link h6{
 
 /* media-query-start */
 
+@media (max-width: 576px) {
+
+    .container{
+        width:90%;
+    }
+
+    .position-set{
+    top:1%;
+    right:0px;
+    z-index: 10;
+    }
+
+    .food-img{
+        width:100%;
+    }
+    
+    footer span{
+        display: inline-block;
+        width:80%;
+    }
+}
