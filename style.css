@@ -200,7 +200,7 @@ footer-link h6{
         font-size:14px;
     }
     .height-increase{
-        height:70vh;
+        height:calc(100vh - 70px);;
         object-fit: cover;
     }
 
