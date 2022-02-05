@@ -183,9 +183,11 @@ footer-link h6{
         width:80%;
     }
     .logo{
-        margin-left:20px;
+        margin-right:0px;
     }
-    
+    .nav-link{
+        text-align: center;
+    }
     .carousel-caption h1{
         font-size:28px;
         font-weight: 400;
@@ -194,6 +196,10 @@ footer-link h6{
     .carousel-caption p{
         font-weight: lighter;
         font-size:14px;
+    }
+    .height-increase{
+        height:70vh;
+        object-fit: cover;
     }
 
 }
