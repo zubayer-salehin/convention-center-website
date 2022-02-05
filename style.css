@@ -167,7 +167,9 @@ footer-link h6{
     .container{
         width:90%;
     }
-
+    .nav-width{
+        width:95%;
+    }
     .position-set{
     top:1%;
     right:0px;
